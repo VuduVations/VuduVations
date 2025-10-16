@@ -48,21 +48,21 @@ I'm an **independent innovation studio** building AI-powered applications that *
 
 ## Featured Work
 
-### [AI Strategy Matrix](https://vuduvations.io)
+### [AI Strategy Matrix](https://www.vuduvations.io/ai-discovery)
 Interactive AI strategy analysis for enterprises. Multi-dimensional assessment of AI opportunities with executive dashboards, use case mapping, and ROI projections.
 
 **Tech:** `LangChain` `OpenAI` `React` `D3.js`
 
 ---
 
-### [ITIL Reflexion Agent](https://github.com/VuduVations/LLM)
+### [ITIL Reflexion Agent](https://www.vuduvations.io/reflexion-itil)
 Self-improving AI for ITIL Change Management using the Reflexion pattern. Iteratively refines RFC documents through multi-agent critique and quality scoring.
 
 **Tech:** `Python` `LangGraph` `Claude` `Multi-Agent Systems`
 
 ---
 
-### Sales Intelligence Graph
+### [Sales Intelligence Graph](https://www.vuduvations.io/consulting-analyzer)
 Real-time LangGraph multi-tier intelligence for sales transcript analysis with observable execution paths, cost tracking, and conditional routing.
 
 **Tech:** `LangGraph` `GPT-4` `Claude` `Streaming APIs`
