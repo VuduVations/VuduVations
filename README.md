@@ -6,21 +6,21 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 I'm an **independent innovation studio** building AI-powered applications that **map, measure, and accelerate innovation**. With 15+ years in management consulting, I apply structured problem-solving and strategic clarity to transform complex data into actionable insight.
 
-### 🎯 My Philosophy
+### My Philosophy
 
 **Every idea has a vector** — a measurable direction in semantic space.
 
-- 🧠 **Semantic Intelligence** — Designing systems that identify opportunities for human augmentation
-- ⚡ **Strategic Execution** — Turning strategy into action with measurable outcomes  
-- 📊 **Actionable Insight** — Making data visual, explorable, and decision-ready
+- **Semantic Intelligence** — Designing systems that identify opportunities for human augmentation
+- **Strategic Execution** — Turning strategy into action with measurable outcomes  
+- **Actionable Insight** — Making data visual, explorable, and decision-ready
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Languages:** Python • JavaScript • TypeScript • Solidity
 
@@ -46,30 +46,30 @@ I'm an **independent innovation studio** building AI-powered applications that *
 
 ---
 
-## 💼 Featured Work
+## Featured Work
 
-### 🧠 [AI Strategy Matrix](https://vuduvations.io)
+### [AI Strategy Matrix](https://vuduvations.io)
 Interactive AI strategy analysis for enterprises. Multi-dimensional assessment of AI opportunities with executive dashboards, use case mapping, and ROI projections.
 
 **Tech:** `LangChain` `OpenAI` `React` `D3.js`
 
 ---
 
-### ⚡ [ITIL Reflexion Agent](https://github.com/VuduVations/LLM)
+### [ITIL Reflexion Agent](https://github.com/VuduVations/LLM)
 Self-improving AI for ITIL Change Management using the Reflexion pattern. Iteratively refines RFC documents through multi-agent critique and quality scoring.
 
 **Tech:** `Python` `LangGraph` `Claude` `Multi-Agent Systems`
 
 ---
 
-### 📊 Sales Intelligence Graph
+### Sales Intelligence Graph
 Real-time LangGraph multi-tier intelligence for sales transcript analysis with observable execution paths, cost tracking, and conditional routing.
 
 **Tech:** `LangGraph` `GPT-4` `Claude` `Streaming APIs`
 
 ---
 
-### 🏦 [GSHI - Decentralized Banking Platform](https://github.com/VuduVations/GSHI)
+### [GSHI - Decentralized Banking Platform](https://github.com/VuduVations/GSHI)
 Strategic feasibility analysis for a compliance-ready crypto banking platform integrating DeFi, CeFi, DAO governance, and algorithmic intelligence.
 
 **Tech:** `Solidity` `DeFi` `Smart Contracts` `DAO Governance`
@@ -78,7 +78,7 @@ Strategic feasibility analysis for a compliance-ready crypto banking platform in
 
 
 
-## 🎓 Background
+## Background
 
 - **15+ years** in management consulting
 - Expertise in **AI/ML, blockchain, and strategic innovation**
@@ -87,7 +87,7 @@ Strategic feasibility analysis for a compliance-ready crypto banking platform in
 
 ---
 
-## 🌐 Connect
+## Connect
 
 <div align="center">
   
@@ -100,7 +100,7 @@ Strategic feasibility analysis for a compliance-ready crypto banking platform in
 
 ---
 
-## 💭 Current Focus
+## Current Focus
 
 - Building self-improving AI agents with Reflexion patterns
 - Exploring semantic space mapping for innovation discovery
