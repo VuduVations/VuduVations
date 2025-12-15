@@ -28,7 +28,7 @@ The system utilizes **15 specialized agents** operating across discovery, logic 
 
 ### Documentation
 - **White Paper:** [Read the Manifesto (vuduvations.io)](https://www.vuduvations.io/whitepaper)
-- **Architecture Specs:** [View Repository](https://github.com/VuduVations/Consulting-as-Code)
+- **Architecture Specs:** [View Repository]( https://vuduvations.github.io/Consulting-as-Code/)
 
 ---
 
