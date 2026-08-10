@@ -1,108 +1,73 @@
 <div align="center">
-  
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=3B82F6&center=true&vCenter=true&width=940&lines=Independent+Innovation+Studio;Where+Ideas+Become+Vectors;Building+AI-Powered+Systems;Solo+Founder+%7C+Builder+%7C+Strategist)
+
+# VuduVations
+
+**Consulting-as-Code™: strategy work as verifiable software.**
+
+We build MCOS, an autonomous consulting engine that turns business conversations and documents into board-ready analysis, with every dollar figure traceable to its source and every run carrying a record of its own integrity.
+
+[Website](https://www.vuduvations.io) · [Research](https://vuduvations.github.io/mcos-reliability-paper/) · [Contact](mailto:hello@vuduvations.io)
 
 </div>
 
 ---
 
-## ⚡ Consulting-as-Code™
+## 📄 New: Published Research
 
-**Consulting-as-Code™** is an autonomous, multi-agent engine that replaces the traditional consulting pyramid with deterministic software.
+**When the Model Isn't the Problem: Degradation Accounting in Fallback-Enabled Production LLM Pipelines** (preprint, August 2026)
 
-It transforms a single conversation (sales, discovery, or strategy) into **Board-Ready Strategy** in under 3 minutes.
+We instrumented our own production system and found that an AI pipeline can post near-perfect quality scores while the AI silently fails behind the scenes: in our baseline, the scoreboard looked flawless while the model completed its own work in only 4 of 10 runs. The study introduces degradation accounting, a run-level integrity record that separates what a system produced from whether the AI actually produced it, and reports a premium model whose measured cost per clean run was 47x a budget model, against a 17x sticker gap.
 
-<div align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/VuduVations/Consulting-as-Code/main/diagrams/cac_full_system_architecture__inputs_to_outputs.png" alt="Consulting-as-Code Architecture" width="850">
-  <br>
-  <em>Figure 1: The Neuro-Symbolic Architecture of Consulting-as-Code™</em>
-  <br><br>
-</div>
+Every prediction was registered before testing. One was falsified by its own registered threshold, and we published that too. An independent reviewer reproduced every headline number from the released artifacts before publication.
 
-The system utilizes **15 specialized agents** operating across discovery, logic enforcement, and strategic synthesis to produce:
--  **Executive-ready strategy**
--  **Financial models** (ROI, NPV, risk-adjusted impact)
--  **AI opportunity portfolios**
--  **Constraint-aware implementation roadmaps**
-
-### Documentation
-- **White Paper:** [Read the Manifesto (vuduvations.io)](https://www.vuduvations.io/whitepaper)
-- **Architecture Specs:** [View Repository]( https://vuduvations.github.io/Consulting-as-Code/)
+**[Read the paper](https://vuduvations.github.io/mcos-reliability-paper/paper.pdf)** · **[Project page + reproducibility artifacts](https://vuduvations.github.io/mcos-reliability-paper/)** · arXiv: coming soon
 
 ---
 
-## About VuduVations
+## The MCOS Engine
 
-I run **VuduVations**, an independent innovation studio focused on encoding consulting logic into deterministic, multi-agent systems.
+MCOS (Management Consulting Operating System) is a five-layer protocol stack. The design principle: **let rules do what rules do best, and make the AI prove the rest.**
 
-With **15+ years in management consulting**, I designed managed services deals for Fortune 500 organizations. That experience revealed a consistent pattern: *Enterprises excel at structure, but strategy execution collapses under human bandwidth, slow cycles, and subjective interpretation.*
+| Layer | Role |
+|---|---|
+| **L1 · Input Transport** | Deterministic parsing of transcripts, documents, SOPs, and audio into one clean format |
+| **L2 · Extraction Primitives** | Rule-based ground truth: every dollar figure, name, date, and calculation, derived solely from the input itself. No LLM, no external database |
+| **L3 · Consulting Core** | Ten specialized AI agents plus an adversarial validation layer where findings must survive cross-examination before they ship |
+| **L4 · Domain Protocols** | Seven finished products: AI Discovery, Sales Intelligence, Key Person Audit, M&A Diligence, Contract Analysis, Workflow Transformation, RFC Quality |
+| **L5 · Sentinel** | Contract governance: extracted obligations become live, monitored gates |
 
-My work replaces slideware, guesswork, and analyst-heavy workflows with **computation, constraints, and math.**
+Money discipline is structural, not aspirational: a figure in the output either traces to a stated source or is labeled as an estimate. Public demos run on certified known-answer corpora, and every production run carries its own integrity record.
 
----
+*Patent pending. U.S. provisional patent applications have been filed covering aspects of these systems and methods.*
 
-## Philosophy
-
-Every idea has a vector — a measurable direction in semantic space.
-
-- **Semantic Intelligence** — Systems that identify opportunities for human augmentation.
-- **Strategic Execution** — Turning insight into action with measurable outcomes.
-- **Decision-Ready Output** — Making complexity explorable, auditable, and actionable.
-
----
-
-## 🛠️ Core Technology Stack
-
-**Languages** Python, JavaScript, TypeScript, Solidity
-
-**AI / ML** LangGraph, LangChain, OpenAI, Anthropic Claude, Reflexion, Multi-Agent Systems, ReAct, AutoGen
-
-**Frameworks & Cloud** React, Next.js, FastAPI, Node.js, AWS, GCP, Vercel
-
-<div align="center">
-  <br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <br><br>
-</div>
+**[Try the live demos](https://www.vuduvations.io)** · **[AI Discovery](https://www.vuduvations.io/ai-discovery)** · **[The manifesto](https://www.vuduvations.io/whitepaper)**
 
 ---
 
-## Selected Work
+## Public Work
 
-### [Sales Intelligence Graph](https://www.vuduvations.io/consulting-analyzer)
-**Foundational pipeline for Consulting-as-Code™.** Real-time multi-agent intelligence for transcript analysis with observable execution paths, cost tracking, and conditional routing.  
-*Tech: LangGraph, GPT-4, Claude, Streaming APIs*
-
-### [AI Strategy Matrix](https://www.vuduvations.io/ai-discovery)
-**Interactive AI strategy analysis for enterprises.** Multi-dimensional assessment of AI opportunities with executive dashboards, use case mapping, and ROI projections.  
-*Tech: LangChain, OpenAI, React, D3.js*
-
-### [ITIL Reflexion Agent](https://www.vuduvations.io/reflexion-itil)
-**Self-improving AI system for Change Management.** Utilizes Reflexion-based multi-agent critique and quality scoring to automate ITIL governance.  
-*Tech: Python, LangGraph, Llama, Multi-Agent Systems*
-
-### [Earnings Intelligence Platform](https://www.vuduvations.io/earnings-analyzer)
-**Bloomberg-level earnings intelligence powered by a 5-agent AI system.** Analyze any public company's earnings calls with institutional-quality insights delivered in 3 minutes. 
-*Tech: Python, LangGraph, Llama, Multi-Agent Systems*
+- **[mcos-reliability-paper](https://github.com/VuduVations/mcos-reliability-paper)**: the reliability study, LaTeX source, and reproducibility bundle with SHA-256 manifest
+- **[Consulting-as-Code](https://github.com/VuduVations/Consulting-as-Code)**: architecture documentation for the Consulting-as-Code™ approach
+- **[itil-reflexion-agent](https://github.com/VuduVations/itil-reflexion-agent)**: LangGraph-based ITIL change management agent using Reflexion-style self-critique
 
 ---
 
-## Connect
+## About
+
+VuduVations is an independent innovation studio founded by Sean Halverson, built on 15+ years of management consulting for Fortune 500 organizations. That experience exposed a consistent pattern: enterprises do not fail at strategy for lack of ideas. They fail because execution runs on slideware, subjective interpretation, and human bandwidth.
+
+Our answer is to encode the consulting method itself into deterministic, auditable software, and to hold the AI components to a standard most of the industry does not yet measure: not just "was the answer right," but "did the AI actually do the work."
+
+**Stack:** Python, TypeScript, LangGraph, Next.js, GCP, Vercel · Model-portable by design across Anthropic, DeepSeek, Moonshot, OpenAI, and xAI.
+
+---
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Website-vuduvations.io-blue?style=for-the-badge&logo=google-chrome)](https://www.vuduvations.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Company-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/company/vuduvations)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail)](mailto:hello@vuduvations.io)
+[![Website](https://img.shields.io/badge/vuduvations.io-0A8F66?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.vuduvations.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/vuduvations)
+[![Email](https://img.shields.io/badge/hello@vuduvations.io-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@vuduvations.io)
 
-<br>
-Every idea has a vector — a measurable direction in semantic space.
-
-![Profile Views](https://komarev.com/ghpvc/?username=VuduVations&color=blue&style=flat)
+<sub>Consulting-as-Code™ is a trademark of VuduVations. © 2026 VuduVations.</sub>
 
 </div>
